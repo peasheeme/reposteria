@@ -1,0 +1,507 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: #FAFAFA;
+  font-family: 'Raleway', system-ui;
+  overflow-x: hidden;
+}
+/* color rosa
+#F9CAD0 rosa claro
+      #BF0F43 rosa fuerte
+
+
+*/
+
+/* ---------------------------------------------- /*
+ * intro
+/* ---------------------------------------------- */
+
+#intro.fondo {
+  background-image: url(../images/bg7.jpg);
+  
+}
+html {
+  overflow-x: hidden;
+}
+img {
+	max-width: 100%  ;
+  height: auto;
+  image-orientation: inherit;
+}
+hr {
+  height: 2px;
+  width: 10%;
+  background-color: #BF0F43;
+}
+#intro {
+  	background: rgba(34, 34, 34, .5) !important;
+  	z-index: auto !important;
+  	padding: 30px 0 160px 0;
+  	text-align: center;
+    color: white;
+  }
+
+  
+
+  
+/*menu responsive*/
+header{
+  width: 100%;
+}
+
+#btn-menu{
+  display: none;
+}
+
+.label-menuResponsive{
+  display: none;
+  width: 80px;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 0;
+  position: relative;
+}
+  
+a.nav-link {
+  color: white;
+  margin: 0 -3px;
+}
+a.nav-link:hover {
+  color: #F9CAD0;
+  
+
+}
+a.active {
+  color: #F9CAD0;
+}
+
+h1.bg-title {
+  font-weight: 800;
+  padding: 150px  0 0 0;
+  font-size: 70px;
+  
+}
+.rotate {
+	text-shadow: 0 0 0 !important;
+  font-weight: 500;
+}
+
+.btn-white {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  width: 170px;
+  height: 55px;
+  margin: 0 10px ;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  border: 2px solid #BF0F43;
+  background: #BF0F43;
+  color: white;
+}
+
+span.spacing {
+  letter-spacing: 3px;
+}
+
+#nota {
+  padding: 10px 0;
+  background: #fff;
+  color: black;
+}
+.nota {
+  font-size: 14px;
+
+  
+}
+
+/* ---------------------------------------------- /*
+ * Preloader
+/* ---------------------------------------------- */
+
+#preloader {
+	background: #FFF;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+#status, .status-mes {
+	background-image: url(preloader.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+}
+
+.status-mes {
+	background: none;
+	left: 0;
+	margin: 0;
+	text-align: center;
+	top: 65%;
+}
+
+.status-mes h4 {
+	color: #222;
+	margin-top: 30px;
+}
+
+
+/* ---------------------------------------------- /*
+ NOSOTROS
+/* ---------------------------------------------- */
+.nosotros {
+  margin: 50px 0;
+}
+#TEXTO-NOSOTROS{
+  margin: 50px 0;
+}
+h5.nosotros-text {
+  font-size: 18px;
+}
+
+
+
+/* ---------------------------------------------- /*
+ * SERVICIOS
+/* ---------------------------------------------- */
+
+.titulos {
+  padding: 80px 0 70px 0;
+  background: #FAFAFA;
+}
+.titulos1 {
+  padding: 15px 0 70px 0;
+  background: #FAFAFA;
+}
+.productos-servicios {
+  margin: 0 0 70px 0;
+}
+
+.item {
+  padding: 20px 15px;
+  background: #fff;
+
+}
+
+.item10 {
+  padding: 20px 15px;
+  background: #fff;
+
+}
+
+.item2 {
+  padding: 10px;
+  width: 300;
+  height: 300;
+
+}
+
+.serv-carousel {
+  background: white;
+  padding: 70px 0;
+}
+
+li.margen-button-tabs, a {
+  list-style: none;
+  margin: 20px  10px;
+  color: black;
+}
+li.margen-button, a:hover , a:focus{
+  color: #BF0F43;
+  text-decoration-line: none;
+}
+
+.activo  {
+  text-decoration-line: none;
+    color: #BF0F43;
+}
+
+.btn-vermas {
+  margin: 30px 0;
+  border: 2px solid #BF0F43;
+  background: #BF0F43;
+  color: white;
+  width: 170px;
+  height: 55px;
+}
+
+.btn-vermas:hover {
+  border: 2px solid #BF0F43;
+  background: transparent;
+  color: #BF0F43;
+  width: 170px;
+  height: 55px;
+}
+
+.btn-contacto:focus, .btn-enviar:focus, .btn-vermas:focus, .btn-white:focus {
+  outline: none;
+}
+ .owl-nav {
+  color: white;
+
+ }
+
+ .preview{
+   margin: 10px 0;
+ }
+
+ button.owl-dot {
+   color: red;
+ }
+
+ /* ---------------------------------------------- /*
+  * PROCESO
+ /* ---------------------------------------------- */
+
+ .proceso {
+   background: white;
+   padding: 70px 0 35px 0;
+ }
+ .proceso2 {
+   background: white;
+   padding: 35px 0 70px 0;
+ }
+
+ .testimoniales{
+   padding: 70px 0;
+ }
+ .rosa {
+   color: #BF0F43;
+ }
+ .fa-star {
+   color: #BF0F43;
+ }
+
+ #footer {
+   padding: 50px 0 20px 0;
+   background: white;
+   font-size:  14px;
+ }
+
+ /* ---------------------------------------------- /*
+  *COLECCION
+ /* ---------------------------------------------- */
+
+ #coleccion{
+   	background: rgba(34, 34, 34, .5) !important;
+   	z-index: auto !important;
+   	padding: 30px 0 50px 0;
+   	text-align: center;
+     color: white;
+   }
+
+   h2.spacing {
+     padding: 30px 0 0 0;
+   }
+
+   .btn-contacto {
+     margin-bottom:30px 0 50px 0;
+     border: 2px solid #BF0F43;
+     background: #BF0F43;
+     color: white;
+     width: 170px;
+     height: 55px;
+   }
+
+   .btn-contacto:hover {
+     border: 2px solid white;
+     background: transparent;
+     color: white;
+
+   }
+
+   .coleccion {
+     padding: 70px 0;
+   }
+   /* ---------------------------------------------- /*
+    * CONTACTO
+   /* ---------------------------------------------- */
+
+
+   #contacto{
+    background: rgba(34, 34, 34, .5) !important;
+    z-index: auto !important;
+    padding: 30px 0 50px 0;
+    text-align: center;
+    color: white;
+  }
+   .contacto {
+     padding: 70px 0;
+   }
+  H5.spacing {
+     letter-spacing: 3px;
+
+   }
+   .media-body {
+     padding-left: 15PX;
+   }
+
+   .form-group {
+     border: 1px solid black;
+    }
+    .form-group:hover {
+      border: 1px solid #BF0F43;
+     }
+    .btn-enviar {
+      border: 2px solid black;
+      background: black;
+      color: white;
+      width: 150px;
+      height: 50px;
+    }
+    .btn-enviar:hover {
+      border: 2px solid #BF0F43;
+      background: #BF0F43;
+      color: white;
+      width: 150px;
+      height: 50px;
+    }
+
+
+
+    /* ---------------------------------------------- /*
+  *CATALOGO
+ /* ---------------------------------------------- */
+
+ #catalogo{
+  background: rgba(34, 34, 34, .5) !important;
+  z-index: auto !important;
+  padding: 30px 0 50px 0;
+  text-align: center;
+  color: white;
+}
+
+.ir-arriba{
+  
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  color: #BF0F43;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 200;
+  border-radius: 5px;
+  transition:  all .5s;
+  display: none;
+}
+
+.ir-arriba:hover{
+  background: #BF0F43;
+  color: white;
+  cursor: pointer;
+}
+
+/*************************************************************/
+/* -------------------------- Media -------------------------*/
+/*************************************************************/
+
+@media screen and (max-width:992px){
+  
+  .label-menuResponsive{
+    display: block;
+    top: -23px;
+    left: 20px;
+    text-align: center;
+  }
+
+  .menu-responsive{
+    position: absolute;
+    background: #000;
+    width: 80%;
+    margin-left: -100%;
+    transition: all 0.5s;
+    z-index: 100;
+  }
+
+  nav.menu-responsive ul.nav{
+    flex-direction: column;
+  }
+  
+  #btn-menu:checked ~ nav.menu-responsive{
+    margin: 0;
+  }
+
+  nav.menu-responsive ul.nav li{
+    text-align: left;
+  }
+}
+
+@media screen and (max-width:761px){ 
+  .item10 {
+    padding: 20px 15px;
+    background: #fff;
+    margin-bottom: 40px;
+    
+}
+.margen-button-tabs {
+  text-align: center;
+}
+ul.movil-links,  li.margen-button-tabs , a { 
+   justify-content: center;
+   margin-left: -46px;
+   list-style: none;
+   
+}
+.item10 {
+  text-align: center;
+}
+}
+
+@media screen and (max-width:480px){
+  li.margen-button-tabs , a {
+    list-style: none;
+    margin: 0;
+    color: black;
+    text-align: center;
+    justify-content: center;
+  }
+
+  a[href="https://www.instagram.com/gabetentacion/"] button{
+    margin-top: 10px;
+  }
+
+  h1.bg-title {
+    font-weight: 800;
+    padding: 50px  0 0 0;
+    font-size: 70px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h1.bg-title{
+    font-size: 36px
+
+  }
+  h3 {
+    font-size: 24px;
+
+  }
+  #intro {
+    padding: 30px 0 55px 0;
+  }
+  .media-body {
+    padding-left: 25PX;
+    text-align: left;
+}
+  } 
+
